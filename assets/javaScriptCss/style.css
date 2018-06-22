@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: black !important;
+}
+
+.container {
+    margin: 40px;
+    color: white;
+}
+
+.col-12 h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+.col-12 h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: 'Bangers', cursive;
+    font-size: 150px;
+}
+
+.col-3 h3 {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
