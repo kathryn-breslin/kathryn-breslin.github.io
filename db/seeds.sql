@@ -1,0 +1,1 @@
+INSERT INTO contact (firstName, lastName, phoneNumber, email, details) VALUES ("Kathryn", "Breslin", "503-234-4455", "kathryn.breslin@afakeemail.com", "This is where someone can write their comments to me or message me....");

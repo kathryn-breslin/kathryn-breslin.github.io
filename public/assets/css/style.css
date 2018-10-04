@@ -1,7 +1,102 @@
+
+#home-background {
+    background-image: url(../images/white_sands.jpg);
+    background-size: cover;
+    height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.jumbotron {
+    background-color: #E9ECEF;
+    height: 600px;
+}
+
 body, html {
     height: 100%;
     margin: 0;
 }
+
+#main-jumbo {
+    background-color: white;
+    margin-block-end: 0;
+    margin-bottom: 0px;
+    height: 800px;
+}
+
+#home-nav {
+    background-color: #E9ECEF;
+    padding: 15px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#hello {
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    font-size: 300px;
+    margin-top: 50px;
+}
+
+#name {
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    margin-top: 50px;
+}
+
+#about {
+    margin: 100px;
+}
+
+/* CONTACT PAGE */
+#contact{
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 180px;
+}
+
+#contact-jumbo{
+    background-color: white;
+    margin-block-end: 0;
+    margin-bottom: 0px;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+/* WORK PAGE */
+#portfolio-background{
+    background-size: cover;
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#port-jumbo {
+    background-color: white;
+    margin-block-end: 0;
+    margin-bottom: 0px;
+    height: 800px;
+}
+
+#work {
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 180px;
+}
+
+#portfolio {
+    margin: 20px;
+}
+
 /*
 body {
     background-image: url ("assets/images/what-the-hex.png");
@@ -12,7 +107,7 @@ body {
 }
 */
 
-#headerContainer {
+/* #headerContainer {
     overflow: hidden;
     background-color: #ffffff;
     margin-top: 0px;
@@ -140,7 +235,7 @@ h2 {
     height: 7px;
     /*margin-bottom: -50px;
     min-height: 100%;*/
-}
+/* }
 
 .footer2 {
     background-color:#666666;
@@ -148,7 +243,7 @@ h2 {
     height: 50px;
    /* margin-bottom: -50px;
     min-height: 100%;*/
-}
+/* }
 
 
 
@@ -182,9 +277,9 @@ h2 {
 
 .box2 :hover {
     opacity: 0.5;
-}
+} */
 
-.box3 {
+/* .box3 {
     float: left;
     margin-left: 30px;
     margin-top: 30px;
@@ -200,9 +295,9 @@ h2 {
     margin-left: 30px;
     margin-top: 30px;
     position: relative;
-}
+} */
 
-.box4 :hover {
+/* .box4 :hover {
     opacity: 0.5;
 }
 
@@ -233,8 +328,8 @@ form {
     width: 95%;
     margin: auto;
     padding: 15px;
-    border: none;
-}
+    border: none; */
+/* }
 
 label {
     color: #777777;
@@ -251,7 +346,7 @@ input {
 textarea {
     width: 97%;
     height: 250px;
-}
+} */
 
 /*
 textarea :focus {
@@ -259,7 +354,7 @@ textarea :focus {
 
 }
 */
-
+/* 
 button {
     background-color:  #4aaaa5;
    border: none;
