@@ -1,6 +1,6 @@
 
 #home-background {
-    background-image: url(../images/white_sands.jpg);
+    background-image: url(../images/DSC_0020.jpg);
     background-size: cover;
     height: 1000px;
     background-attachment: fixed;
@@ -67,9 +67,34 @@ body, html {
     margin-top: 40px;
     margin-left: 40px;
     margin-right: 40px;
+    padding: 50px;
 }
 
+#contactBackground {
+    background-image: url(../images/sunset.jpg);
+    background-position: center;
+    height:900px;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
 
+#helloContact {
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+}
+
+label, button {
+    font-family: 'Arimo', sans-serif;
+}
+
+#contact-nav {
+    background-color: transparent;
+    padding: 15px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 /* WORK PAGE */
 #portfolio-background{
     background-size: cover;
@@ -79,11 +104,20 @@ body, html {
     background-repeat: no-repeat;
 }
 
+#workBackground {
+    background-image: url(../images/white_sands.jpg);
+    background-position: center;
+    height:1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #port-jumbo {
     background-color: white;
     margin-block-end: 0;
     margin-bottom: 0px;
-    height: 800px;
+    height: 400px;
+    padding: 50px;
 }
 
 #work {
@@ -93,10 +127,32 @@ body, html {
     margin-top: 180px;
 }
 
+
 #portfolio {
-    margin: 20px;
+    margin: 60px;
 }
 
+#port-nav {
+    background-color: transparent;
+    padding: 15px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#imgRoadster, #imgBurger, #imgFriend {
+    opacity: 0.5;
+}
+.card-title {
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    font-size: 30px;;
+}
+
+.card-text {
+    font-family: 'Arimo', sans-serif;
+}
 /*
 body {
     background-image: url ("assets/images/what-the-hex.png");
@@ -217,46 +273,46 @@ h2 {
 .para1 p :hover{
     color: #4aaaa5;
 }
-
+*/
 .footerContainer {
     margin: 0;
     min-height: 100px;
     margin-top: auto;
     margin-bottom: -50px;
-}
+} 
 
 .footer, .push {
     height: 50px;
 }
 
-.footer1 {
-    background-color: #4aaaa5;
+/* .footer1 {
+    background-color: black;
     width: 100%;
     height: 7px;
     /*margin-bottom: -50px;
     min-height: 100%;*/
-/* }
+ 
 
 .footer2 {
-    background-color:#666666;
+    background-color: #E9ECEF;
     width: 100%;
     height: 50px;
    /* margin-bottom: -50px;
     min-height: 100%;*/
-/* }
+ }
 
 
 
 .footer2 p {
     text-align: center;
-    color: white;
+    color: black;
     opacity: 0.5;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 10px;
     padding-top: 30px;
     margin: 0px;
 }
-
+/*
 .box1  { 
     float: left;
     margin-left: 30px;
