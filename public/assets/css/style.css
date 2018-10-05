@@ -9,7 +9,7 @@
 }
 
 .jumbotron {
-    background-color: #E9ECEF;
+    background-color: white;
     height: 600px;
 }
 
@@ -26,12 +26,13 @@ body, html {
 }
 
 #home-nav {
-    background-color: #E9ECEF;
+    background-color: white;
     padding: 15px;
     overflow: hidden;
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 100
 }
 
 #hello {
@@ -51,22 +52,28 @@ body, html {
     margin: 100px;
 }
 
+#kathryn {
+    float: left; 
+    margin-right: 30px;
+}
+
 /* CONTACT PAGE */
 #contact{
     font-family: 'Arimo', sans-serif;
     text-align: center;
     font-size: 100px;
-    margin-top: 180px;
+    margin-top: 300px;
 }
 
 #contact-jumbo{
     background-color: white;
     margin-block-end: 0;
-    margin-bottom: 0px;
+    margin-bottom: 100px;
     height: 400px;
     margin-top: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: center;
     padding: 50px;
 }
 
@@ -88,13 +95,44 @@ label, button {
 }
 
 #contact-nav {
-    background-color: transparent;
+    background-color: white;
     padding: 15px;
     overflow: hidden;
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 100;
 }
+
+#submit button {
+    color: #494949 !important;
+    text-transform: uppercase;
+    background: #ffffff;
+    padding: 20px;
+    border: 4px solid #494949 !important;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+#submit button:hover {
+    color: #ffffff !important;
+    background: #8294A3;
+    border-color: #8294A3 !important;
+    transition: all 0.4s ease 0s;
+}  
+
+form {
+    color: #494949 !important;
+    text-transform: uppercase;
+    background: #ffffff;
+    padding: 20px;
+    border: 2px solid #494949 !important;
+    border-radius: 6px;
+    /* display: inline-block; */
+    margin-bottom: 40px;
+    padding: 60px;
+}
+
 /* WORK PAGE */
 #portfolio-background{
     background-size: cover;
@@ -124,21 +162,26 @@ label, button {
     font-family: 'Arimo', sans-serif;
     text-align: center;
     font-size: 100px;
-    margin-top: 180px;
+    margin-top: 250px;
 }
 
+#workDiv {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
 
 #portfolio {
     margin: 60px;
 }
 
 #port-nav {
-    background-color: transparent;
+    background-color: white;
     padding: 15px;
     overflow: hidden;
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 100;
 }
 
 #imgRoadster, #imgBurger, #imgFriend {
@@ -153,128 +196,29 @@ label, button {
 .card-text {
     font-family: 'Arimo', sans-serif;
 }
-/*
-body {
-    background-image: url ("assets/images/what-the-hex.png");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-*/
 
-/* #headerContainer {
-    overflow: hidden;
-    background-color: #ffffff;
-    margin-top: 0px;
-    height: 100px;
-    border-bottom: solid 2px #cccccc;
-}
+/* #workDiv :hover {
+    opacity: 0.9;
+} */
 
-a {
-   color: #cccccc;
-   text-decoration: none;
-}
-
-a :hover {
-    color: #cccccc;
-    opacity: 0.5;
-}
-
-.topnav li :hover {
-    color: #4aaaa5;
-    opacity: 0.5;
-}
-
-.name {
-    background-color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: white;
-    width: 230px;
-    font-size: 12px;
+ #workDiv button {
+    color: #494949 !important;
+    text-transform: uppercase;
+    background: #ffffff;
     padding: 20px;
-    float: left;
-    position: relative;
-    margin-left:5%;
-
+    border: 4px solid #494949 !important;
+    border-radius: 6px;
+    display: inline-block;
 }
 
-.name .active {
-    color: white;
+#workDiv button:hover {
+    color: #ffffff !important;
+    background: #8294A3;
+    border-color: #8294A3 !important;
+    transition: all 0.4s ease 0s;
 }
 
-h1 {
-    padding: 5px;
-    text-align: center;
-}
-
-.topnav {
-    background-color: white;
-    float: right;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    margin-right: 5%;
-    margin-top: 1%;
-    position: relative;
-    margin-right: 5%;
-}
-
-li {
-    display: inline;
-    float: left;
-}
-
-li a {
-   display: block;
-   padding: 8px;
-   border-right: solid 1px #cccccc;
-}
-
-li .noBorder {
-    border-style: hidden;
-}
-
-.internalContainer {
-    background-color: #ffffff;
-    width: 960px;
-    height: 700px;
-    margin: auto;
-    position: relative;
-}
-
-h2 {
-    color: #4aaaa5;
-    padding-top: 10px;
-    padding-left:10px;
-    margin-left: 10px;
-}
-
-.divider {
-    background-color: #cccccc;
-    width: 95%;
-    height: 5px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-}
-
-.image {
-    margin-left: 20px;
-    float: left;
-    margin-right: 20px;
-}
-
-.para1 p {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-    text-align: left;
-    line-height: 2;
-    padding: 8px 20px 8px 20px;
-}
-
-.para1 p :hover{
-    color: #4aaaa5;
-}
-*/
-.footerContainer {
+/* .footerContainer {
     margin: 0;
     min-height: 100px;
     margin-top: auto;
@@ -285,23 +229,13 @@ h2 {
     height: 50px;
 }
 
-/* .footer1 {
-    background-color: black;
-    width: 100%;
-    height: 7px;
-    /*margin-bottom: -50px;
-    min-height: 100%;*/
- 
-
 .footer2 {
     background-color: #E9ECEF;
     width: 100%;
     height: 50px;
    /* margin-bottom: -50px;
     min-height: 100%;*/
- }
-
-
+ /* }
 
 .footer2 p {
     text-align: center;
@@ -311,120 +245,161 @@ h2 {
     font-size: 10px;
     padding-top: 30px;
     margin: 0px;
-}
-/*
-.box1  { 
-    float: left;
-    margin-left: 30px;
-    margin-top: 30px;
-    position: relative;
-}
+} */ 
 
-.box1 :hover {
-    opacity: 0.5;
-}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+    /* Styles */
+    #main-jumbo {
+        background-color: white;
+        margin-block-end: 0;
+        margin-bottom: 0px;
+        height: 100%;
+    }
 
-.box2 {
-    float: left;
-    margin-left: 30px;
-    margin-top: 30px;
-    position: relative;
-}
+    #home-nav {
+        background-color: white;
+        padding: 15px;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 100;
+    }
 
-.box2 :hover {
-    opacity: 0.5;
-} */
+    #hello {
+        font-family: 'Arimo', sans-serif;
+        text-align: center;
+        font-size: 100px;
+        margin-top: 200px;
+    }
 
-/* .box3 {
-    float: left;
-    margin-left: 30px;
-    margin-top: 30px;
-    position: relative;
-}
+    #kathryn {
+        float: left;
+        clear: right;
+    }
 
-.box3 :hover {
-    opacity: 0.5;
-}
-
-.box4 {
-    float: left;
-    margin-left: 30px;
-    margin-top: 30px;
-    position: relative;
-} */
-
-/* .box4 :hover {
-    opacity: 0.5;
-}
-
-.box5 {
-    float: left;
-    margin-left: 30px;
-    margin-top: 30px;
-    position: relative;
-}
-
-.box5 :hover {
-    opacity: 0.5;
-}
-
-.band {
-    background-color: #4aaaa5;
-    color: white;
-    text-align: center;
-    padding-top: 7px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    position: absolute;
-    height: 30px;
-    width: 100%;
-    top: 70%;
-}
-
-form {
-    width: 95%;
-    margin: auto;
-    padding: 15px;
-    border: none; */
-/* }
-
-label {
-    color: #777777;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-input {
-    width: 95%;
-    margin: 10px 0px 10px 0px;
-    padding: 10px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-textarea {
-    width: 97%;
-    height: 250px;
-} */
-
-/*
-textarea :focus {
-   border-color: #cccccc;
-
-}
-*/
+    #paragraph {
+        float: left;
+    }
 /* 
-button {
-    background-color:  #4aaaa5;
-   border: none;
-   color: white;
-   padding: 16px 32px;
-   text-decoration: none;
-   margin: 4px 2px;
-   cursor: pointer;
-   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-   font-size: 15px;
+    .footerContainer {
+        margin: 0;
+        min-height: 100px;
+        margin-top: auto;
+        margin-bottom: -50%;
+    } 
+    
+    .footer, .push {
+        height: 50px;
+    }
+    
+    .footer2 {
+        background-color: #E9ECEF;
+        width: 100%;
+        height: 50px;
+       /* margin-bottom: -50px;
+        min-height: 100%;*/
+/* 
+    .footer2 p {
+        text-align: center;
+        color: black;
+        opacity: 0.5;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 10px;
+        padding-top: 30px;
+        margin: 0px;
+    } */
+
+    #contact-jumbo {
+        clear: right;
+        margin-bottom: 20px;
+    }
 }
 
-button :hover {
-    color: #cccccc;
-    opacity: 0.5;
-}
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-width: 480px) and (max-width: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+        /* Styles */
+        #home-nav {
+            background-color: white;
+            padding: 15px;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 100;
+        }
 
+        #hello {
+            font-family: 'Arimo', sans-serif;
+            text-align: center;
+            font-size: 100px;
+            margin-top: 100px;
+        }
+
+        #kathryn {
+            float: left;
+            clear: right;
+        }
+    
+        #paragraph {
+            float: left;
+        }
+
+        #workDiv {
+            float: left;
+            clear: right;
+        }
+
+        #port-nav {
+            background-color: white;
+            padding: 15px;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 100;
+        }
+
+        #contact-nav {
+            background-color: white;
+            padding: 15px;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 100;
+        }
+    }
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    /* Styles */
+    #home-nav {
+        background-color: white;
+        padding: 15px;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 100;
+    }
+    
+    #hello {
+        font-family: 'Arimo', sans-serif;
+        text-align: center;
+        font-size: 200px;
+        margin-top: 100px;
+    }
+
+    #kathryn {
+        float: left;
+        clear: right;
+    }
+
+    #paragraph {
+        float: left;
+    }
+}
+        
+    
